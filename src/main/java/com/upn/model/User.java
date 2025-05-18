@@ -1,4 +1,4 @@
-package com.utp.model;
+package com.upn.model;
 
 /**
  *

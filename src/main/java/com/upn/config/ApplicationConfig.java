@@ -1,4 +1,4 @@
-package com.utp.config;
+package com.upn.config;
 
 /**
  *

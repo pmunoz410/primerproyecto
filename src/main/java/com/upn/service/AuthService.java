@@ -1,15 +1,12 @@
-package com.utp.service;
+package com.upn.service;
 
-/**
- *
- * @author Carla Abregù
- */
-import com.utp.model.User;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
 import java.util.*;
+
+import com.upn.model.User;
 @Path("/auth")
 public class AuthService {
     private static final Map<String, User> users = new HashMap<>();
